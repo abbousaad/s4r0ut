@@ -172,6 +172,8 @@ Not accepted:
 
 See also:
 
+- [Awareness lab](docs/awareness-lab.md)
+- [Internal audit checklist](docs/internal-audit-checklist.md)
 - [Source notes](docs/source-notes.md)
 - [Tooling notes](docs/tooling.md)
 - [Release report](reports/release-report.md)

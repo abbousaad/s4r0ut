@@ -30,3 +30,11 @@ Use these artifacts only where you have explicit authorization. Good use cases:
 Do not use this project for unauthorized login attempts, credential stuffing, or
 attacks against systems you do not own or administer.
 
+## Recommended Workflows
+
+- For an awareness session, start with `docs/awareness-lab.md` and the `mini`
+  profile.
+- For an internal review, start with `docs/internal-audit-checklist.md` and the
+  `standard` profile.
+- For research comparisons, use `scripts/compare.py` and cite the commit hash,
+  dictionary SHA-256, and release report.

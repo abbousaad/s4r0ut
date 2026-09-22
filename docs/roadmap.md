@@ -38,3 +38,4 @@ security research.
 - Add release archives for every tagged version
 - Add source notes for every seed category
 - Add benchmark comparisons against KasbahKeys and generic dictionaries
+- Add more awareness and internal-audit playbooks
