@@ -1,9 +1,18 @@
-# Starter Hashcat-style ideas for future rule expansion.
-# The Python builder currently implements its own deterministic transforms.
-$1 $2 $3
-$2 $0 $2 $4
-$@
-$!
+# s4r0ut basic Hashcat-style rules for authorized defensive testing.
+# Keep rules short, explainable, and Morocco-pattern focused.
+:
 c
 u
-
+$1
+$!
+$@
+$1$2$3
+$1$2$3$4
+$2$1$2
+$2$0$2$4
+$2$0$2$5
+$2$0$2$6
+$-$1$2$3
+$_$1$2$3
+$@$1$2$3
+$!$1$2$3

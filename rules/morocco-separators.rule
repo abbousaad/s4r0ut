@@ -1,0 +1,17 @@
+# s4r0ut separator-focused Hashcat-style rules.
+# Combines base words with common separators and short numeric motifs.
+$-$1
+$-$1$2$3
+$-$2$1$2
+$-$2$0$2$4
+$_$1
+$_$1$2$3
+$_$2$1$2
+$_$2$0$2$4
+$.$1
+$@$1
+$@$1$2$3
+$@$2$1$2
+$!$1
+$!$1$2$3
+$!$2$1$2

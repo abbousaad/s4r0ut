@@ -29,6 +29,7 @@ security research.
 - Club chants and culturally common phrases
 - Mobile-number-inspired patterns without real numbers
 - Keyboard layouts and AZERTY/QWERTY variants used in Morocco
+- Expanded Hashcat/JtR-compatible rule coverage
 
 ## Near-Term Engineering
 

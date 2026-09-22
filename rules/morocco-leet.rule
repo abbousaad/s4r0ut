@@ -1,0 +1,17 @@
+# s4r0ut lightweight leetspeak Hashcat-style rules.
+# Focuses on common substitutions useful for Moroccan Latin-script terms.
+sa4
+se3
+si1
+so0
+ss5
+sh7
+sq9
+c
+csa4
+cse3
+csi1
+cso0
+css5
+csh7
+csq9

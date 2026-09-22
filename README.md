@@ -47,6 +47,9 @@ seeds/
 
 rules/
   morocco-basic.rule
+  morocco-years.rule
+  morocco-separators.rule
+  morocco-leet.rule
 
 scripts/
   build.py
@@ -91,6 +94,7 @@ Run quality checks:
 
 ```bash
 python3 scripts/seed_qa.py
+python3 scripts/rule_qa.py
 python3 scripts/qa.py
 ```
 
@@ -169,6 +173,7 @@ Not accepted:
 See also:
 
 - [Source notes](docs/source-notes.md)
+- [Tooling notes](docs/tooling.md)
 - [Release report](reports/release-report.md)
 - [Release process](docs/release-process.md)
 - [Security policy](SECURITY.md)
