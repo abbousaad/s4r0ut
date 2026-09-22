@@ -37,10 +37,10 @@ Generated on 2026-09-22 from the local clones under
 
 | Metric | s4r0ut standard | KasbahKeys |
 |---|---:|---:|
-| Unique entries | 100,541 | 373,578 |
-| Shared entries | 2,819 | 2,819 |
-| Unique to file | 97,722 | 370,759 |
-| Moroccan keyword hits | 11,478 | 5,366 |
+| Unique entries | 181,632 | 373,578 |
+| Shared entries | 3,250 | 3,250 |
+| Unique to file | 178,382 | 370,328 |
+| Moroccan keyword hits | 13,989 | 5,366 |
 
 Interpretation:
 
@@ -49,4 +49,3 @@ Interpretation:
   simple benchmark.
 - The next step is improving the benchmark with stronger linguistic categories,
   not only keyword matching.
-

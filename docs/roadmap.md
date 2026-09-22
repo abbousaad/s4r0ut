@@ -22,10 +22,10 @@ security research.
 
 ## Next Research Areas
 
-- Regional Darija vocabulary
-- Amazigh terms and transliterations
-- Hassaniya terms and transliterations
-- Moroccan family names
+- Deeper regional Darija vocabulary
+- Deeper Amazigh terms and transliterations
+- Deeper Hassaniya terms and transliterations
+- Additional Moroccan family names
 - Club chants and culturally common phrases
 - Mobile-number-inspired patterns without real numbers
 - Keyboard layouts and AZERTY/QWERTY variants used in Morocco

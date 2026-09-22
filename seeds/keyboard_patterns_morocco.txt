@@ -1,0 +1,26 @@
+# Keyboard patterns commonly seen on QWERTY/AZERTY-style passwords.
+azerty
+azertyuiop
+qwerty
+qwertyuiop
+qsdf
+qsdfgh
+qsdfghjklm
+wxcv
+wxcvbn
+asdf
+asdfgh
+asdfghjkl
+123azer
+123azerty
+azerty123
+azerty2024
+qwerty123
+qwerty2024
+password
+password123
+motdepasse
+motdepasse123
+admin
+admin123
+

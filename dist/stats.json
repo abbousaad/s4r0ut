@@ -2,67 +2,71 @@
   "profiles": {
     "strict": {
       "file": "s4r0ut-strict.txt",
-      "entries": 10662,
-      "unique_entries": 10662,
+      "entries": 19726,
+      "unique_entries": 19726,
       "min_length": 4,
       "max_length": 21,
       "length_buckets": {
-        "<6": 493,
-        "6-10": 6560,
-        "11-16": 3530,
-        ">16": 79
+        "<6": 662,
+        "6-10": 11202,
+        "11-16": 7639,
+        ">16": 223
       },
-      "moroccan_keyword_hits": 2097
+      "moroccan_keyword_hits": 2967
     },
     "mini": {
       "file": "s4r0ut-mini.txt",
-      "entries": 10662,
-      "unique_entries": 10662,
+      "entries": 19726,
+      "unique_entries": 19726,
       "min_length": 4,
       "max_length": 21,
       "length_buckets": {
-        "<6": 493,
-        "6-10": 6560,
-        "11-16": 3530,
-        ">16": 79
+        "<6": 662,
+        "6-10": 11202,
+        "11-16": 7639,
+        ">16": 223
       },
-      "moroccan_keyword_hits": 2097
+      "moroccan_keyword_hits": 2967
     },
     "standard": {
       "file": "s4r0ut-standard.txt",
-      "entries": 100541,
-      "unique_entries": 100541,
+      "entries": 181632,
+      "unique_entries": 181632,
       "min_length": 4,
       "max_length": 20,
       "length_buckets": {
-        "<6": 1603,
-        "6-10": 54928,
-        "11-16": 41476,
-        ">16": 2534
+        "<6": 2244,
+        "6-10": 89915,
+        "11-16": 85004,
+        ">16": 4469
       },
-      "moroccan_keyword_hits": 11478
+      "moroccan_keyword_hits": 13989
     },
     "extended": {
       "file": "s4r0ut-extended.txt",
-      "entries": 100740,
-      "unique_entries": 100740,
+      "entries": 181858,
+      "unique_entries": 181858,
       "min_length": 4,
       "max_length": 26,
       "length_buckets": {
-        "<6": 1603,
-        "6-10": 54928,
-        "11-16": 41476,
-        ">16": 2733
+        "<6": 2244,
+        "6-10": 89915,
+        "11-16": 85004,
+        ">16": 4695
       },
-      "moroccan_keyword_hits": 11507
+      "moroccan_keyword_hits": 14029
     }
   },
   "seed_files": {
+    "amazigh_hassaniya_latin": 33,
     "cities_regions": 38,
     "darija_latin": 35,
+    "family_names_morocco": 63,
     "football_culture": 18,
+    "institutions_culture_morocco": 34,
+    "keyboard_patterns_morocco": 24,
     "moroccan_patterns": 18,
     "names_morocco": 80
   },
-  "total_seeds": 189
+  "total_seeds": 343
 }

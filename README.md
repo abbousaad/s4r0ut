@@ -8,6 +8,7 @@ combining:
 
 - Moroccan names and spelling variants
 - Darija words written in Latin script
+- Amazigh, Hassaniya, and regional terms written in Latin script
 - Moroccan cities, regions, football clubs, and cultural references
 - Common local numeric patterns, years, and country-code motifs
 - Transparent generation rules
@@ -31,9 +32,13 @@ systems you do not own, or any illegal activity.
 ```text
 seeds/
   names_morocco.txt
+  family_names_morocco.txt
   darija_latin.txt
   cities_regions.txt
   football_culture.txt
+  amazigh_hassaniya_latin.txt
+  keyboard_patterns_morocco.txt
+  institutions_culture_morocco.txt
   moroccan_patterns.txt
 
 rules/
