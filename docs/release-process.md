@@ -18,9 +18,10 @@ and defensible.
 
 ```bash
 python3 scripts/build.py
-python3 -m py_compile scripts/build.py scripts/compare.py scripts/qa.py scripts/seed_qa.py
+python3 -m py_compile scripts/build.py scripts/compare.py scripts/qa.py scripts/report.py scripts/seed_qa.py
 python3 -m unittest discover -s tests
 python3 scripts/seed_qa.py
+python3 scripts/report.py
 python3 scripts/qa.py
 python3 scripts/compare.py dist/s4r0ut-standard.txt ../KasbahKeys/KasbahKeys.txt
 ```

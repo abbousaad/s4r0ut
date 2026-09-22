@@ -16,7 +16,7 @@ jobs:
           python-version: "3.x"
 
       - name: Check Python syntax
-        run: python -m py_compile scripts/build.py scripts/compare.py scripts/qa.py scripts/seed_qa.py
+        run: python -m py_compile scripts/build.py scripts/compare.py scripts/qa.py scripts/report.py scripts/seed_qa.py
 
       - name: Run unit tests
         run: python -m unittest discover -s tests
@@ -26,6 +26,9 @@ jobs:
 
       - name: Rebuild dictionaries
         run: python scripts/build.py
+
+      - name: Generate release reports
+        run: python scripts/report.py
 
       - name: Run dictionary QA
         run: python scripts/qa.py

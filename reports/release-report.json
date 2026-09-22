@@ -1,0 +1,80 @@
+{
+  "profiles": {
+    "strict": {
+      "file": "s4r0ut-strict.txt",
+      "entries": 19726,
+      "unique_entries": 19726,
+      "min_length": 4,
+      "max_length": 21,
+      "length_buckets": {
+        "<6": 662,
+        "6-10": 11202,
+        "11-16": 7639,
+        ">16": 223
+      },
+      "moroccan_keyword_hits": 2967,
+      "bytes": 217191,
+      "sha256": "3138cc6dc2e9d16beafa811ffd314d6efd434ddedc87f606ddc627bbb18402fb"
+    },
+    "mini": {
+      "file": "s4r0ut-mini.txt",
+      "entries": 19726,
+      "unique_entries": 19726,
+      "min_length": 4,
+      "max_length": 21,
+      "length_buckets": {
+        "<6": 662,
+        "6-10": 11202,
+        "11-16": 7639,
+        ">16": 223
+      },
+      "moroccan_keyword_hits": 2967,
+      "bytes": 217191,
+      "sha256": "3138cc6dc2e9d16beafa811ffd314d6efd434ddedc87f606ddc627bbb18402fb"
+    },
+    "standard": {
+      "file": "s4r0ut-standard.txt",
+      "entries": 181632,
+      "unique_entries": 181632,
+      "min_length": 4,
+      "max_length": 20,
+      "length_buckets": {
+        "<6": 2244,
+        "6-10": 89915,
+        "11-16": 85004,
+        ">16": 4469
+      },
+      "moroccan_keyword_hits": 13989,
+      "bytes": 2121682,
+      "sha256": "d64e7d305d543619e508305e8f4a4cf335b2d778405f93f998c6577f166ea2be"
+    },
+    "extended": {
+      "file": "s4r0ut-extended.txt",
+      "entries": 181858,
+      "unique_entries": 181858,
+      "min_length": 4,
+      "max_length": 26,
+      "length_buckets": {
+        "<6": 2244,
+        "6-10": 89915,
+        "11-16": 85004,
+        ">16": 4695
+      },
+      "moroccan_keyword_hits": 14029,
+      "bytes": 2126923,
+      "sha256": "9daa60ec7b95bf9b7a9ec182a36d221b28dc74c12bdb25b0903c53ed0da9c56a"
+    }
+  },
+  "seed_files": {
+    "amazigh_hassaniya_latin": 33,
+    "cities_regions": 38,
+    "darija_latin": 35,
+    "family_names_morocco": 63,
+    "football_culture": 18,
+    "institutions_culture_morocco": 34,
+    "keyboard_patterns_morocco": 24,
+    "moroccan_patterns": 18,
+    "names_morocco": 80
+  },
+  "total_seeds": 343
+}

@@ -46,6 +46,7 @@ rules/
 
 scripts/
   build.py
+  report.py
 
 dist/
   s4r0ut-strict.txt
@@ -87,6 +88,12 @@ Run quality checks:
 ```bash
 python3 scripts/seed_qa.py
 python3 scripts/qa.py
+```
+
+Generate release reports:
+
+```bash
+python3 scripts/report.py
 ```
 
 Run unit tests:
@@ -141,5 +148,6 @@ Not accepted:
 See also:
 
 - [Source notes](docs/source-notes.md)
+- [Release report](reports/release-report.md)
 - [Release process](docs/release-process.md)
 - [Security policy](SECURITY.md)
