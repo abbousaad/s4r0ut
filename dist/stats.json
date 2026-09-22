@@ -1,0 +1,13 @@
+{
+  "dictionary": "s4r0ut-mini.txt",
+  "entries": 101239,
+  "seed_files": {
+    "cities_regions": 38,
+    "darija_latin": 35,
+    "football_culture": 18,
+    "moroccan_patterns": 18,
+    "names_morocco": 80
+  },
+  "min_length": 4,
+  "max_length": 26
+}
