@@ -88,6 +88,12 @@ Run quality checks:
 python3 scripts/qa.py
 ```
 
+Run unit tests:
+
+```bash
+python3 -m unittest discover -s tests
+```
+
 ## Release Profiles
 
 - `strict`: highest Moroccan signal, conservative transforms
@@ -130,3 +136,9 @@ Not accepted:
 - Account dumps
 - Passwords from unauthorized collection
 - Data that exposes private individuals
+
+See also:
+
+- [Source notes](docs/source-notes.md)
+- [Release process](docs/release-process.md)
+- [Security policy](SECURITY.md)
