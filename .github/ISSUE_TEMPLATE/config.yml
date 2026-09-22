@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Sensitive data or private leak report
+    url: https://github.com/abbousaad/s4r0ut/security/policy
+    about: Do not open public issues containing private data, credentials, or leaks.
+

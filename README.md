@@ -1,5 +1,9 @@
 # s4r0ut
 
+[![qa](https://github.com/abbousaad/s4r0ut/actions/workflows/qa.yml/badge.svg)](https://github.com/abbousaad/s4r0ut/actions/workflows/qa.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Defensive Research](https://img.shields.io/badge/use-defensive%20research-green.svg)](SECURITY.md)
+
 **s4r0ut** is a Moroccan-focused password research dictionary for defensive
 security, awareness, password policy testing, and authorized audits.
 
@@ -108,6 +112,23 @@ python3 -m unittest discover -s tests
 - `mini`: compact high-signal release for quick demos and awareness
 - `standard`: practical default profile for authorized internal testing
 - `extended`: broader generated variants for research
+
+Current release report:
+
+| Profile | Entries | Moroccan keyword hits |
+|---|---:|---:|
+| `strict` | 19,726 | 2,967 |
+| `mini` | 19,726 | 2,967 |
+| `standard` | 181,632 | 13,989 |
+| `extended` | 181,858 | 14,029 |
+
+Current local benchmark against KasbahKeys:
+
+| Metric | s4r0ut standard | KasbahKeys |
+|---|---:|---:|
+| Unique entries | 181,632 | 373,578 |
+| Shared entries | 3,250 | 3,250 |
+| Moroccan keyword hits | 13,989 | 5,366 |
 
 ## What Makes It Moroccan
 

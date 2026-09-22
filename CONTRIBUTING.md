@@ -28,6 +28,8 @@ cleaner to use in defensive research.
 - No empty lines
 - Use `#` for comments
 - Keep entries short and reusable
+- Keep entries sorted
+- Update `docs/source-notes.md` for new seed categories
 
 Example:
 
@@ -39,3 +41,17 @@ casa
 wydad
 ```
 
+## Required Checks
+
+Run these before opening a pull request:
+
+```bash
+python3 scripts/seed_qa.py
+python3 scripts/build.py
+python3 scripts/report.py
+python3 scripts/qa.py
+python3 -m unittest discover -s tests
+```
+
+The CI workflow runs the same quality gates and fails when generated files are
+stale or seed files violate the data policy.

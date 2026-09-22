@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use s4r0ut in defensive research, awareness, or academic work, please cite it."
+title: "s4r0ut: Moroccan Password-Pattern Research Dictionary"
+authors:
+  - family-names: "Saad"
+    given-names: "Abderrahim"
+repository-code: "https://github.com/abbousaad/s4r0ut"
+license: "MIT"
+keywords:
+  - "password research"
+  - "Morocco"
+  - "Darija"
+  - "cybersecurity awareness"
+  - "defensive security"
+abstract: "s4r0ut is a Moroccan-focused password-pattern research dictionary for defensive security, awareness, password policy testing, and authorized audits."
+

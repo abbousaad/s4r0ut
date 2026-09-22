@@ -1,0 +1,33 @@
+name: Quality issue
+description: Report a quality, documentation, generation, or QA issue.
+title: "Quality: "
+labels: ["quality"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - seeds
+        - generated_dictionary
+        - documentation
+        - scripts
+        - ci
+        - release_report
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: Describe the quality problem without including sensitive data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected improvement
+      description: What should change?
+    validations:
+      required: true
+

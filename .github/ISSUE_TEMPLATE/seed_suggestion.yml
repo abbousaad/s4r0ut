@@ -1,0 +1,51 @@
+name: Seed suggestion
+description: Suggest Morocco-specific seed entries for defensive research.
+title: "Seed: "
+labels: ["seed", "research"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest public, non-sensitive Moroccan seed entries only. Do not submit private leaks, real credentials, emails, phone numbers, IDs, usernames tied to real people, or account dumps.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - names_morocco
+        - family_names_morocco
+        - darija_latin
+        - cities_regions
+        - football_culture
+        - amazigh_hassaniya_latin
+        - keyboard_patterns_morocco
+        - institutions_culture_morocco
+        - moroccan_patterns
+        - new_category
+    validations:
+      required: true
+  - type: textarea
+    id: entries
+    attributes:
+      label: Proposed entries
+      description: One lowercase ASCII entry per line.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why these are Moroccan-specific
+      description: Explain the linguistic, regional, cultural, or defensive research relevance.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Data safety confirmation
+      options:
+        - label: These entries are not private credentials, account dumps, emails, phone numbers, IDs, or personal data tied to identifiable people.
+          required: true
+        - label: These entries are intended for defensive security research and awareness.
+          required: true
+
