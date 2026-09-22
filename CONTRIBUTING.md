@@ -46,12 +46,7 @@ wydad
 Run these before opening a pull request:
 
 ```bash
-python3 scripts/seed_qa.py
-python3 scripts/rule_qa.py
-python3 scripts/build.py
-python3 scripts/report.py
-python3 scripts/qa.py
-python3 -m unittest discover -s tests
+make qa
 ```
 
 The CI workflow runs the same quality gates and fails when generated files are

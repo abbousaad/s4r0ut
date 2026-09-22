@@ -66,7 +66,7 @@ dist/
 ## Build
 
 ```bash
-python3 scripts/build.py
+make build
 ```
 
 The builder reads all seed files, generates Moroccan-specific variants, removes
@@ -93,21 +93,19 @@ python3 scripts/compare.py dist/s4r0ut-standard.txt ../KasbahKeys/KasbahKeys.txt
 Run quality checks:
 
 ```bash
-python3 scripts/seed_qa.py
-python3 scripts/rule_qa.py
-python3 scripts/qa.py
+make qa
 ```
 
 Generate release reports:
 
 ```bash
-python3 scripts/report.py
+make report
 ```
 
 Run unit tests:
 
 ```bash
-python3 -m unittest discover -s tests
+make test
 ```
 
 ## Release Profiles
