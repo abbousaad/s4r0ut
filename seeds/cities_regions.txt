@@ -6,16 +6,16 @@ azilal
 beni_mellal
 benimellal
 berrechid
-casablanca
 casa
+casablanca
 darbeda
 eljadida
 errachidia
 essaouira
 fes
 ifran
-kenitra
 kech
+kenitra
 khemisset
 khenifra
 khouribga
@@ -37,4 +37,3 @@ taroudant
 taza
 tetouan
 tinghir
-

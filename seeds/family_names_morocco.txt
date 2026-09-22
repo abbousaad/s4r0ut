@@ -1,7 +1,7 @@
 # Common Moroccan family names and name particles.
 ait
-alaoui
 alami
+alaoui
 amrani
 aziz
 baadi
@@ -62,4 +62,3 @@ sefrioui
 sqalli
 tazi
 zniber
-

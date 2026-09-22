@@ -1,5 +1,4 @@
 # Short reusable Moroccan motifs.
-212
 061
 062
 063
@@ -11,9 +10,10 @@
 069
 070
 071
+212
+dima
+king
+love
 maghrib
 maroc
 morocco
-love
-dima
-king

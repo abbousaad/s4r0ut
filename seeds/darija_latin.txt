@@ -1,6 +1,6 @@
 # Darija and Morocco-specific words commonly written in Latin script.
-allah
 alhamdulillah
+allah
 amin
 baraka
 bghit
@@ -14,8 +14,8 @@ hamdolah
 hbiba
 hob
 inchalah
-khoya
 khouya
+khoya
 khti
 lah
 lalla
@@ -26,12 +26,11 @@ mimti
 moul
 omri
 rabbi
-sahbi
 sa7bi
+sahbi
 salam
 sidi
 walidi
 zin
 zina
 zwina
-

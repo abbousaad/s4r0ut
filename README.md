@@ -85,6 +85,7 @@ python3 scripts/compare.py dist/s4r0ut-standard.txt ../KasbahKeys/KasbahKeys.txt
 Run quality checks:
 
 ```bash
+python3 scripts/seed_qa.py
 python3 scripts/qa.py
 ```
 

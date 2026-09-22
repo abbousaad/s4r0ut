@@ -16,10 +16,13 @@ jobs:
           python-version: "3.x"
 
       - name: Check Python syntax
-        run: python -m py_compile scripts/build.py scripts/compare.py scripts/qa.py
+        run: python -m py_compile scripts/build.py scripts/compare.py scripts/qa.py scripts/seed_qa.py
 
       - name: Run unit tests
         run: python -m unittest discover -s tests
+
+      - name: Run seed QA
+        run: python scripts/seed_qa.py
 
       - name: Rebuild dictionaries
         run: python scripts/build.py
