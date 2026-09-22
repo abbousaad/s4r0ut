@@ -30,3 +30,10 @@ security research.
 - Mobile-number-inspired patterns without real numbers
 - Keyboard layouts and AZERTY/QWERTY variants used in Morocco
 
+## Near-Term Engineering
+
+- Add CI to rebuild and verify generated dictionaries
+- Add a duplicate and sorting check
+- Add release archives for every tagged version
+- Add source notes for every seed category
+- Add benchmark comparisons against KasbahKeys and generic dictionaries

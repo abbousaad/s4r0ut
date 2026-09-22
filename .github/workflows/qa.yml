@@ -1,0 +1,29 @@
+name: qa
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  dictionary-qa:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check Python syntax
+        run: python -m py_compile scripts/build.py scripts/compare.py scripts/qa.py
+
+      - name: Rebuild dictionaries
+        run: python scripts/build.py
+
+      - name: Run dictionary QA
+        run: python scripts/qa.py
+
+      - name: Ensure generated files are committed
+        run: git diff --exit-code
+

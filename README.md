@@ -43,7 +43,10 @@ scripts/
   build.py
 
 dist/
+  s4r0ut-strict.txt
   s4r0ut-mini.txt
+  s4r0ut-standard.txt
+  s4r0ut-extended.txt
   stats.json
 ```
 
@@ -56,8 +59,36 @@ python3 scripts/build.py
 The builder reads all seed files, generates Moroccan-specific variants, removes
 duplicates, sorts the output, and writes:
 
+- `dist/s4r0ut-strict.txt`
 - `dist/s4r0ut-mini.txt`
+- `dist/s4r0ut-standard.txt`
+- `dist/s4r0ut-extended.txt`
 - `dist/stats.json`
+
+Build a single profile:
+
+```bash
+python3 scripts/build.py --profile strict
+```
+
+Compare against another dictionary:
+
+```bash
+python3 scripts/compare.py dist/s4r0ut-standard.txt ../KasbahKeys/KasbahKeys.txt
+```
+
+Run quality checks:
+
+```bash
+python3 scripts/qa.py
+```
+
+## Release Profiles
+
+- `strict`: highest Moroccan signal, conservative transforms
+- `mini`: compact high-signal release for quick demos and awareness
+- `standard`: practical default profile for authorized internal testing
+- `extended`: broader generated variants for research
 
 ## What Makes It Moroccan
 
@@ -94,4 +125,3 @@ Not accepted:
 - Account dumps
 - Passwords from unauthorized collection
 - Data that exposes private individuals
-

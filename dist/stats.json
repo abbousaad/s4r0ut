@@ -1,6 +1,62 @@
 {
-  "dictionary": "s4r0ut-mini.txt",
-  "entries": 101239,
+  "profiles": {
+    "strict": {
+      "file": "s4r0ut-strict.txt",
+      "entries": 10662,
+      "unique_entries": 10662,
+      "min_length": 4,
+      "max_length": 21,
+      "length_buckets": {
+        "<6": 493,
+        "6-10": 6560,
+        "11-16": 3530,
+        ">16": 79
+      },
+      "moroccan_keyword_hits": 2097
+    },
+    "mini": {
+      "file": "s4r0ut-mini.txt",
+      "entries": 10662,
+      "unique_entries": 10662,
+      "min_length": 4,
+      "max_length": 21,
+      "length_buckets": {
+        "<6": 493,
+        "6-10": 6560,
+        "11-16": 3530,
+        ">16": 79
+      },
+      "moroccan_keyword_hits": 2097
+    },
+    "standard": {
+      "file": "s4r0ut-standard.txt",
+      "entries": 100541,
+      "unique_entries": 100541,
+      "min_length": 4,
+      "max_length": 20,
+      "length_buckets": {
+        "<6": 1603,
+        "6-10": 54928,
+        "11-16": 41476,
+        ">16": 2534
+      },
+      "moroccan_keyword_hits": 11478
+    },
+    "extended": {
+      "file": "s4r0ut-extended.txt",
+      "entries": 100740,
+      "unique_entries": 100740,
+      "min_length": 4,
+      "max_length": 26,
+      "length_buckets": {
+        "<6": 1603,
+        "6-10": 54928,
+        "11-16": 41476,
+        ">16": 2733
+      },
+      "moroccan_keyword_hits": 11507
+    }
+  },
   "seed_files": {
     "cities_regions": 38,
     "darija_latin": 35,
@@ -8,6 +64,5 @@
     "moroccan_patterns": 18,
     "names_morocco": 80
   },
-  "min_length": 4,
-  "max_length": 26
+  "total_seeds": 189
 }
