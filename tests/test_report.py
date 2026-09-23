@@ -71,6 +71,11 @@ class ReportTests(unittest.TestCase):
         self.assertIn("| strict | 1 | 1 | 4 | 4 | 1 | 5 | `abc` |", markdown)
         self.assertIn("Quality Gates", markdown)
 
+    def test_release_date_comes_from_changelog(self):
+        report = load_report_module()
+
+        self.assertRegex(report.release_date(), r"^\d{4}-\d{2}-\d{2}$")
+
 
 if __name__ == "__main__":
     unittest.main()

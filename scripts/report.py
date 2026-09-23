@@ -6,12 +6,14 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-from datetime import date
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 REPORTS = ROOT / "reports"
+VERSION = ROOT / "VERSION"
+CHANGELOG = ROOT / "CHANGELOG.md"
 
 
 def sha256(path: Path) -> str:
@@ -30,6 +32,15 @@ def load_stats(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def release_date() -> str:
+    version = VERSION.read_text(encoding="utf-8").strip()
+    changelog = CHANGELOG.read_text(encoding="utf-8")
+    match = re.search(rf"^## \[{re.escape(version)}\] - (\d{{4}}-\d{{2}}-\d{{2}})$", changelog, re.MULTILINE)
+    if not match:
+        raise ValueError(f"CHANGELOG.md is missing a release date for {version}")
+    return match.group(1)
+
+
 def enrich_stats(stats: dict, dist_dir: Path) -> dict:
     enriched = json.loads(json.dumps(stats))
     for profile in enriched["profiles"].values():
@@ -43,7 +54,7 @@ def markdown_report(stats: dict) -> str:
     lines = [
         "# s4r0ut Release Report",
         "",
-        f"Generated: {date.today().isoformat()}",
+        f"Release date: {release_date()}",
         "",
         "## Summary",
         "",
@@ -122,4 +133,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

@@ -1,6 +1,6 @@
 # s4r0ut Release Report
 
-Generated: 2026-09-22
+Release date: 2026-09-22
 
 ## Summary
 
