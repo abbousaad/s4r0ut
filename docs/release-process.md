@@ -6,13 +6,14 @@ and defensible.
 ## Checklist
 
 1. Update seed files and source notes.
-2. Rebuild all profiles.
-3. Run Python syntax checks.
-4. Run unit tests.
-5. Run dictionary QA.
-6. Compare `s4r0ut-standard` against relevant baseline dictionaries.
-7. Commit generated dictionaries and updated stats.
-8. Tag the release.
+2. Update `VERSION` and `CHANGELOG.md`.
+3. Rebuild all profiles.
+4. Run Python syntax checks.
+5. Run unit tests.
+6. Run dictionary QA.
+7. Compare `s4r0ut-standard` against relevant baseline dictionaries.
+8. Commit generated dictionaries and updated stats.
+9. Tag the release.
 
 ## Commands
 

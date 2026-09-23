@@ -1,4 +1,4 @@
-.PHONY: all syntax test seed-qa rule-qa build report dict-qa qa compare clean
+.PHONY: all syntax test version-qa seed-qa rule-qa build report dict-qa qa compare clean
 
 PYTHON ?= python3
 BASELINE ?= ../KasbahKeys/KasbahKeys.txt
@@ -6,10 +6,13 @@ BASELINE ?= ../KasbahKeys/KasbahKeys.txt
 all: qa
 
 syntax:
-	$(PYTHON) -m py_compile scripts/build.py scripts/compare.py scripts/qa.py scripts/report.py scripts/rule_qa.py scripts/seed_qa.py
+	$(PYTHON) -m py_compile scripts/build.py scripts/compare.py scripts/qa.py scripts/report.py scripts/rule_qa.py scripts/seed_qa.py scripts/version_qa.py
 
 test:
 	$(PYTHON) -m unittest discover -s tests
+
+version-qa:
+	$(PYTHON) scripts/version_qa.py
 
 seed-qa:
 	$(PYTHON) scripts/seed_qa.py
@@ -26,7 +29,7 @@ report:
 dict-qa:
 	$(PYTHON) scripts/qa.py
 
-qa: syntax test seed-qa rule-qa build report dict-qa
+qa: syntax test version-qa seed-qa rule-qa build report dict-qa
 	git diff --exit-code
 
 compare:
@@ -34,4 +37,3 @@ compare:
 
 clean:
 	find . -type d -name __pycache__ -prune -exec rm -rf {} +
-

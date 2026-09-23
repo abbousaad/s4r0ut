@@ -65,6 +65,8 @@ dist/
 
 ## Build
 
+Current version: `0.1.0`
+
 ```bash
 make build
 ```
@@ -172,6 +174,7 @@ See also:
 
 - [Awareness lab](docs/awareness-lab.md)
 - [Internal audit checklist](docs/internal-audit-checklist.md)
+- [Changelog](CHANGELOG.md)
 - [Source notes](docs/source-notes.md)
 - [Tooling notes](docs/tooling.md)
 - [Release report](reports/release-report.md)
