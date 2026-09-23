@@ -121,18 +121,18 @@ Current release report:
 
 | Profile | Entries | Moroccan keyword hits |
 |---|---:|---:|
-| `strict` | 19,726 | 2,967 |
-| `mini` | 19,726 | 2,967 |
-| `standard` | 181,632 | 13,989 |
-| `extended` | 181,858 | 14,029 |
+| `strict` | 36,506 | 4,827 |
+| `mini` | 36,506 | 4,827 |
+| `standard` | 327,640 | 16,780 |
+| `extended` | 328,519 | 16,867 |
 
 Current local benchmark against KasbahKeys:
 
 | Metric | s4r0ut standard | KasbahKeys |
 |---|---:|---:|
-| Unique entries | 181,632 | 373,578 |
-| Shared entries | 3,250 | 3,250 |
-| Moroccan keyword hits | 13,989 | 5,366 |
+| Unique entries | 327,640 | 373,578 |
+| Shared entries | 4,527 | 4,527 |
+| Moroccan keyword hits | 16,780 | 5,366 |
 
 ## What Makes It Moroccan
 

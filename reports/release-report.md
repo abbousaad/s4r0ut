@@ -4,7 +4,7 @@ Release date: 2026-09-22
 
 ## Summary
 
-- Total seed entries: 343
+- Total seed entries: 636
 - Seed categories: 9
 - Release profiles: 4
 
@@ -12,24 +12,24 @@ Release date: 2026-09-22
 
 | Profile | Entries | Unique | Min | Max | Moroccan hits | Bytes | SHA-256 |
 |---|---:|---:|---:|---:|---:|---:|---|
-| strict | 19,726 | 19,726 | 4 | 21 | 2,967 | 217,191 | `3138cc6dc2e9d16beafa811ffd314d6efd434ddedc87f606ddc627bbb18402fb` |
-| mini | 19,726 | 19,726 | 4 | 21 | 2,967 | 217,191 | `3138cc6dc2e9d16beafa811ffd314d6efd434ddedc87f606ddc627bbb18402fb` |
-| standard | 181,632 | 181,632 | 4 | 20 | 13,989 | 2,121,682 | `d64e7d305d543619e508305e8f4a4cf335b2d778405f93f998c6577f166ea2be` |
-| extended | 181,858 | 181,858 | 4 | 26 | 14,029 | 2,126,923 | `9daa60ec7b95bf9b7a9ec182a36d221b28dc74c12bdb25b0903c53ed0da9c56a` |
+| strict | 36,506 | 36,506 | 4 | 21 | 4,827 | 410,443 | `a61bca3cc97b585af4a7f0995929b71621e29ee2092be0235e76cc0230ad3411` |
+| mini | 36,506 | 36,506 | 4 | 21 | 4,827 | 410,443 | `a61bca3cc97b585af4a7f0995929b71621e29ee2092be0235e76cc0230ad3411` |
+| standard | 327,640 | 327,640 | 4 | 20 | 16,780 | 3,886,372 | `14baa74d67482834077b94ae09a4685013d24737dac2e96cdeb0acea01cc738a` |
+| extended | 328,519 | 328,519 | 4 | 28 | 16,867 | 3,906,711 | `fc7770c7b60400d30ef828b09766d2dfa0b587ce3667d6aec7fae637de26876e` |
 
 ## Seed Files
 
 | Seed file | Entries |
 |---|---:|
-| `amazigh_hassaniya_latin.txt` | 33 |
-| `cities_regions.txt` | 38 |
-| `darija_latin.txt` | 35 |
-| `family_names_morocco.txt` | 63 |
-| `football_culture.txt` | 18 |
-| `institutions_culture_morocco.txt` | 34 |
-| `keyboard_patterns_morocco.txt` | 24 |
-| `moroccan_patterns.txt` | 18 |
-| `names_morocco.txt` | 80 |
+| `amazigh_hassaniya_latin.txt` | 59 |
+| `cities_regions.txt` | 74 |
+| `darija_latin.txt` | 73 |
+| `family_names_morocco.txt` | 117 |
+| `football_culture.txt` | 38 |
+| `institutions_culture_morocco.txt` | 60 |
+| `keyboard_patterns_morocco.txt` | 38 |
+| `moroccan_patterns.txt` | 30 |
+| `names_morocco.txt` | 147 |
 
 ## Quality Gates
 

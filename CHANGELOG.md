@@ -12,7 +12,7 @@ The project uses semantic versioning:
 
 ### Added
 
-- Moroccan-focused seed corpus with 343 curated entries across 9 categories.
+- Moroccan-focused seed corpus with 636 curated entries across 9 categories.
 - Four generated dictionary profiles: strict, mini, standard, and extended.
 - Reproducible builder, release reports, QA scripts, and Makefile workflow.
 - Seed, rule, dictionary, report, and unit-test quality gates.
@@ -24,8 +24,7 @@ The project uses semantic versioning:
 
 ### Benchmarks
 
-- `s4r0ut-standard.txt`: 181,632 unique entries.
-- `s4r0ut-extended.txt`: 181,858 unique entries.
-- Local KasbahKeys comparison: 13,989 Moroccan keyword hits in s4r0ut-standard
+- `s4r0ut-standard.txt`: 327,640 unique entries.
+- `s4r0ut-extended.txt`: 328,519 unique entries.
+- Local KasbahKeys comparison: 16,780 Moroccan keyword hits in s4r0ut-standard
   versus 5,366 in KasbahKeys using the project keyword benchmark.
-

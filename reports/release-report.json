@@ -2,79 +2,79 @@
   "profiles": {
     "strict": {
       "file": "s4r0ut-strict.txt",
-      "entries": 19726,
-      "unique_entries": 19726,
+      "entries": 36506,
+      "unique_entries": 36506,
       "min_length": 4,
       "max_length": 21,
       "length_buckets": {
-        "<6": 662,
-        "6-10": 11202,
-        "11-16": 7639,
-        ">16": 223
+        "<6": 1080,
+        "6-10": 19277,
+        "11-16": 15808,
+        ">16": 341
       },
-      "moroccan_keyword_hits": 2967,
-      "bytes": 217191,
-      "sha256": "3138cc6dc2e9d16beafa811ffd314d6efd434ddedc87f606ddc627bbb18402fb"
+      "moroccan_keyword_hits": 4827,
+      "bytes": 410443,
+      "sha256": "a61bca3cc97b585af4a7f0995929b71621e29ee2092be0235e76cc0230ad3411"
     },
     "mini": {
       "file": "s4r0ut-mini.txt",
-      "entries": 19726,
-      "unique_entries": 19726,
+      "entries": 36506,
+      "unique_entries": 36506,
       "min_length": 4,
       "max_length": 21,
       "length_buckets": {
-        "<6": 662,
-        "6-10": 11202,
-        "11-16": 7639,
-        ">16": 223
+        "<6": 1080,
+        "6-10": 19277,
+        "11-16": 15808,
+        ">16": 341
       },
-      "moroccan_keyword_hits": 2967,
-      "bytes": 217191,
-      "sha256": "3138cc6dc2e9d16beafa811ffd314d6efd434ddedc87f606ddc627bbb18402fb"
+      "moroccan_keyword_hits": 4827,
+      "bytes": 410443,
+      "sha256": "a61bca3cc97b585af4a7f0995929b71621e29ee2092be0235e76cc0230ad3411"
     },
     "standard": {
       "file": "s4r0ut-standard.txt",
-      "entries": 181632,
-      "unique_entries": 181632,
+      "entries": 327640,
+      "unique_entries": 327640,
       "min_length": 4,
       "max_length": 20,
       "length_buckets": {
-        "<6": 2244,
-        "6-10": 89915,
-        "11-16": 85004,
-        ">16": 4469
+        "<6": 3562,
+        "6-10": 151195,
+        "11-16": 166128,
+        ">16": 6755
       },
-      "moroccan_keyword_hits": 13989,
-      "bytes": 2121682,
-      "sha256": "d64e7d305d543619e508305e8f4a4cf335b2d778405f93f998c6577f166ea2be"
+      "moroccan_keyword_hits": 16780,
+      "bytes": 3886372,
+      "sha256": "14baa74d67482834077b94ae09a4685013d24737dac2e96cdeb0acea01cc738a"
     },
     "extended": {
       "file": "s4r0ut-extended.txt",
-      "entries": 181858,
-      "unique_entries": 181858,
+      "entries": 328519,
+      "unique_entries": 328519,
       "min_length": 4,
-      "max_length": 26,
+      "max_length": 28,
       "length_buckets": {
-        "<6": 2244,
-        "6-10": 89915,
-        "11-16": 85004,
-        ">16": 4695
+        "<6": 3562,
+        "6-10": 151195,
+        "11-16": 166128,
+        ">16": 7634
       },
-      "moroccan_keyword_hits": 14029,
-      "bytes": 2126923,
-      "sha256": "9daa60ec7b95bf9b7a9ec182a36d221b28dc74c12bdb25b0903c53ed0da9c56a"
+      "moroccan_keyword_hits": 16867,
+      "bytes": 3906711,
+      "sha256": "fc7770c7b60400d30ef828b09766d2dfa0b587ce3667d6aec7fae637de26876e"
     }
   },
   "seed_files": {
-    "amazigh_hassaniya_latin": 33,
-    "cities_regions": 38,
-    "darija_latin": 35,
-    "family_names_morocco": 63,
-    "football_culture": 18,
-    "institutions_culture_morocco": 34,
-    "keyboard_patterns_morocco": 24,
-    "moroccan_patterns": 18,
-    "names_morocco": 80
+    "amazigh_hassaniya_latin": 59,
+    "cities_regions": 74,
+    "darija_latin": 73,
+    "family_names_morocco": 117,
+    "football_culture": 38,
+    "institutions_culture_morocco": 60,
+    "keyboard_patterns_morocco": 38,
+    "moroccan_patterns": 30,
+    "names_morocco": 147
   },
-  "total_seeds": 343
+  "total_seeds": 636
 }

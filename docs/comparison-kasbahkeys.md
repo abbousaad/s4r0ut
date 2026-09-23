@@ -37,10 +37,10 @@ Generated on 2026-09-22 from the local clones under
 
 | Metric | s4r0ut standard | KasbahKeys |
 |---|---:|---:|
-| Unique entries | 181,632 | 373,578 |
-| Shared entries | 3,250 | 3,250 |
-| Unique to file | 178,382 | 370,328 |
-| Moroccan keyword hits | 13,989 | 5,366 |
+| Unique entries | 327,640 | 373,578 |
+| Shared entries | 4,527 | 4,527 |
+| Unique to file | 323,113 | 369,051 |
+| Moroccan keyword hits | 16,780 | 5,366 |
 
 Interpretation:
 
